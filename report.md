@@ -17,12 +17,12 @@ The dataset includes various variables, such as loan size, interest rate, borrow
 
 ![Result of Confusion Matrix](confusion_matrix.png)
 
-18673 healthy loans were classified correctly.
-593 high risk loans were classified correctly.
-86 healthy loans were incorrectly classified as high risk.
-32 high risk loans were incorrectly classified as healthy.
+    18655 healthy loans were classified correctly.
+    583 high risk loans were classified correctly.
+    110 healthy loans were incorrectly classified as high risk.
+    36 high risk loans were incorrectly classified as healthy.
 
-![Accuracy Report](accuracy_reprt.png)
+![Accuracy Report](accuracy_report.png)
 Accuracy Score: 0.99
 The model achieved an accuracy of 99%, meaning it correctly classified 99% of the loans in the dataset.
 
