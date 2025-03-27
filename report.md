@@ -23,31 +23,32 @@ The dataset includes various variables, such as loan size, interest rate, borrow
     36 high risk loans were incorrectly classified as healthy.
 
 ![Accuracy Report](accuracy_report.png)
-Accuracy Score: 0.99
-The model achieved an accuracy of 99%, meaning it correctly classified 99% of the loans in the dataset.
 
-Precision for Class 0 (Healthy Loan): 1.00
-The precision for class 0 (healthy loans) is perfect, indicating that the model can predict healthy loans with 100% accuracy, without misclassifying any high-risk loans as healthy.
+    Accuracy Score: 0.99
+    The model achieved an accuracy of 99%, meaning it correctly classified 99% of the loans in the dataset.
 
-Recall for Class 0 (Healthy Loan): 0.99
-The recall for class 0 is 99%, meaning the model successfully identified 99% of the actual healthy loans, with only a small number of false negatives.
+    Precision for Class 0 (Healthy Loan): 1.00
+    The precision for class 0 (healthy loans) is perfect, indicating that the model can predict healthy loans with 100% accuracy, without misclassifying any high-risk loans      as healthy.
 
-F1-score for Class 0:1
-F1-score 1 means precision and Recall has perfect balance and class 0 is perfect.
+    Recall for Class 0 (Healthy Loan): 0.99
+    The recall for class 0 is 99%, meaning the model successfully identified 99% of the actual healthy loans, with only a small number of false negatives.
 
-Precision for Class 1 (High-Risk Loan): 0.84
-The precision for class 1 (high-risk loans) is 84%, meaning that when the model predicts a loan as high-risk, it is correct 84% of the time. However, 16% of the high-risk predictions are false positives (healthy loans incorrectly classified as high-risk).
+    F1-score for Class 0:1
+    F1-score 1 means precision and Recall has perfect balance and class 0 is perfect.
 
-Recall for Class 1 (High-Risk Loan): 0.94
-The recall for class 1 is 94%, meaning the model correctly identified 94% of the actual high-risk loans, effectively minimizing false negatives (missed high-risk loans).
+    Precision for Class 1 (High-Risk Loan): 0.84
+    The precision for class 1 (high-risk loans) is 84%, meaning that when the model predicts a loan as high-risk, it is correct 84% of the time. However, 16% of the high-        risk predictions are false positives (healthy loans incorrectly classified as high-risk).
 
-F1-Score for Class 1 (High-Risk Loan): 0.89
-The F1-score for class 1 is 0.89, indicating a strong balance between precision and recall. While the model performs well, there is still room for improvement in precision to reduce false positives.
+    Recall for Class 1 (High-Risk Loan): 0.94
+    The recall for class 1 is 94%, meaning the model correctly identified 94% of the actual high-risk loans, effectively minimizing false negatives (missed high-risk loans).
+
+    F1-Score for Class 1 (High-Risk Loan): 0.89
+    The F1-score for class 1 is 0.89, indicating a strong balance between precision and recall. While the model performs well, there is still room for improvement in             precision to reduce false positives.
 
 
-The macro averages give a general view of the model's performance across both classes, without considering class imbalance. The model performs relatively well with a higher recall value, meaning that it does a good job of identifying positive samples across both classes, although the precision is slightly lower.
-
-The weighted averages take into account the class imbalance, with class 0 heavily influencing the overall scores. The model performs exceptionally well across all metrics, as indicated by the high weighted averages, particularly in terms of precision, recall, and F1-score.
+    The macro averages give a general view of the model's performance across both classes, without considering class imbalance. The model performs relatively well with a         higher recall value, meaning that it does a good job of identifying positive samples across both classes, although the precision is slightly lower.
+    
+    The weighted averages take into account the class imbalance, with class 0 heavily influencing the overall scores. The model performs exceptionally well across all             metrics, as indicated by the high weighted averages, particularly in terms of precision, recall, and F1-score.
 
 
 ## Summary
