@@ -1,10 +1,8 @@
 ## Overview of the Analysis
 
 The purpose of this Analysis is to use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
-
-The objects is too split data into 2 categories 0 as a healthy-loan and 1 is high-risk loan
-
-Dataset has many variable like loan_size, interest_rate, borrower_income, total_debt etc etc which help to predcit about loan health.The model need to predict that loan will be healthy loan or a high risk loan.
+The objective is to categorize loans into two groups: 0 for "healthy loans" and 1 for "high-risk loans."
+The dataset includes various variables, such as loan size, interest rate, borrower income, total debt, and more. These features will be utilized to predict whether a loan is likely to be a healthy loan or a high-risk loan.
 
 ## Stages of the machine learning process
     import the dataset
